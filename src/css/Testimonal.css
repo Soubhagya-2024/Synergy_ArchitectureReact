@@ -1,0 +1,118 @@
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-item .testimonial-item-inner {
+  padding: 50px 30px;
+  background: #fff;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+
+.testimonial-item blockquote {
+  font-size: 18px;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.testimonial-item .testimonial-author {
+  text-anchor: center;
+}
+
+.testimonial-item .testimonial-author img {
+  width: 80px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+}
+
+.testimonial-item .testimonial-author strong {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.testimonial-item .testimonial-author span {
+  font-size: 14px;
+}
+
+.testimonial-slide-center-wrap {
+  position: relative;
+}
+
+.testimonial-slide-center-wrap .tns-outer .tns-inner {
+  padding-bottom: 100px !important;
+}
+
+.testimonial-slide-center-wrap .tns-item {
+  opacity: .3;
+  transition: 0.3s all ease;
+  transform: scale(0.9);
+}
+
+.testimonial-slide-center-wrap .tns-item.tns-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.testimonial-slide-center-wrap .tns-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  z-index: 2;
+}
+
+.testimonial-slide-center-wrap .tns-nav button {
+  background: none;
+  border: none;
+  display: inline-block;
+  margin: 2px;
+  position: relative;
+}
+
+.testimonial-slide-center-wrap .tns-nav button:active,
+.testimonial-slide-center-wrap .tns-nav button:focus {
+  outline: none;
+}
+
+.testimonial-slide-center-wrap .tns-nav button:before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.3s all ease;
+}
+
+.testimonial-slide-center-wrap .tns-nav button.tns-nav-active:before {
+  background-color: #fc5404;
+}
+
+#testimonial-nav {
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#testimonial-nav > span {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#testimonial-nav span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
